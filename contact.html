@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAkJCQII+Pj0SOjo5EjIyMRIyMjESLi4tEi4uLRIuLi0SLi4tEjIyMRIyMjESNjY1Ej4+PRJCQkCgAAAAAAAAAAJCQkH6ioqL/sbGx/7CwsP+wsLD/r6+v/6+vr/+vr6//r6+v/7CwsP+wsLD/sbGx/6ampv+QkJCdAAAAAAAAAACPj48fn5+f+tTU1P/U1NT/1NTU/9PT0//T09P/09PT/9PT0//U1NT/1NTU/9XV1f+qqqr/j4+PPwAAAAAAAAAAAAAAAI2NjZe9vb3/1NTU/9PT0//T09P/09PT/9PT0//T09P/09PT/9TU1P/IyMj/j4+Pwo2NjQEAAAAAAAAAAAAAAACNjY0QkZGR2sbGxv/BwcH/p6en/5+fn/+fn5//q6ur/8fHx//Pz8//mpqa9IyMjCwAAAAAAAAAAAAAAAAAAAAAAAAAAIuLiymMjIz61NTU///////////////////////AwMD/lJSU+4uLi0wAAAAAAAAAAAAAAAAAAAAAAAAAAIyMjACLi4uZ8fHx/////////////////////////////////9PT0/+KiopkAAAAAAAAAAAAAAAAAAAAAAAAAACLi4sqwsLC/f//////////////////////////////////////////oaGh6YqKigkAAAAAAAAAAAAAAAAAAAAAiYmJef7+/v///////////////////////////////////////////9/f3/+IiIhEAAAAAAAAAAAAAAAAAAAAAIaGhpf////////////////////////////////////////////////09PT/hISEYgAAAAAAAAAAAAAAAAAAAACFhYWH////////////////////////////////////////////////5+fn/39/f1IAAAAAAAAAAAAAAAAAAAAAgICARtbW1v///////////////////////////////////////////66urvl8fHwXAAAAAAAAAAAAAAAAAAAAAHt7ewKCgoLI//////////////////////////////////////Dw8P92dnaWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3NzIYyMjOD7+/v//////////////////////+Xl5f91dXXCcHBwCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABubm4VcXFxlpOTk++8vLz/uLi4/4eHh+RpaWl7bW1tBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsbGwGaWlpIGpqahxsbGwDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAACAAQAAwAEAAMADAADgBwAAwAcAAMADAADAAwAAwAMAAMADAADAAwAAwAcAAOAHAADwDwAA/D8AAA==" rel="icon" type="image/x-icon">    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -17,7 +17,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><a href= "index.html">
+                    <a class="nav-link" href= "index.html">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                            <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
                            <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
@@ -51,28 +51,31 @@
 <body>
   
   <main class="container">
-    
+
     <section class="row">
         <article class="col-md-12">
          <h1> Contact Me </h1>
         </article>
     </section>
-        
-    <section class="row">
-    <section class="col-md-6">
-        <img alt="Contact Me" src="Contact-me-image.jpg" width=320px height= 350px style="width:100%">
-    </section>
-    <section class="col-md-6">
-      <form action="">
-      <label for="name"> </label>
-      <br>
-      <input type="text" id="name" name="name" placeholder="Name">
-      <label for="subject"> </label>
-      <br><br>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-      <input type="submit" value="Submit">
-      </form>
-    </section>
+
+      <section class="row">
+        <article class="col-md-6">
+          <img alt="Contact Me" src="Contact-me-image.jpg" max-width=320px max-height= 350px style="max-width:100%">
+        </article>
+        <article class="col-md-6">
+          <form action="">
+            <label for="name"> </label>
+              <br>
+            <input type="text" id="name" name="name" placeholder="Name">
+            <label for="subject"> </label>
+              <br><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <form method="post" action="mailto:codybalmand@gmail.com">
+                <input type="submit" value="Send Email">
+              </form>
+          </form>
+        </article>
+      </section>
   </main>
         
 

@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAkJCQII+Pj0SOjo5EjIyMRIyMjESLi4tEi4uLRIuLi0SLi4tEjIyMRIyMjESNjY1Ej4+PRJCQkCgAAAAAAAAAAJCQkH6ioqL/sbGx/7CwsP+wsLD/r6+v/6+vr/+vr6//r6+v/7CwsP+wsLD/sbGx/6ampv+QkJCdAAAAAAAAAACPj48fn5+f+tTU1P/U1NT/1NTU/9PT0//T09P/09PT/9PT0//U1NT/1NTU/9XV1f+qqqr/j4+PPwAAAAAAAAAAAAAAAI2NjZe9vb3/1NTU/9PT0//T09P/09PT/9PT0//T09P/09PT/9TU1P/IyMj/j4+Pwo2NjQEAAAAAAAAAAAAAAACNjY0QkZGR2sbGxv/BwcH/p6en/5+fn/+fn5//q6ur/8fHx//Pz8//mpqa9IyMjCwAAAAAAAAAAAAAAAAAAAAAAAAAAIuLiymMjIz61NTU///////////////////////AwMD/lJSU+4uLi0wAAAAAAAAAAAAAAAAAAAAAAAAAAIyMjACLi4uZ8fHx/////////////////////////////////9PT0/+KiopkAAAAAAAAAAAAAAAAAAAAAAAAAACLi4sqwsLC/f//////////////////////////////////////////oaGh6YqKigkAAAAAAAAAAAAAAAAAAAAAiYmJef7+/v///////////////////////////////////////////9/f3/+IiIhEAAAAAAAAAAAAAAAAAAAAAIaGhpf////////////////////////////////////////////////09PT/hISEYgAAAAAAAAAAAAAAAAAAAACFhYWH////////////////////////////////////////////////5+fn/39/f1IAAAAAAAAAAAAAAAAAAAAAgICARtbW1v///////////////////////////////////////////66urvl8fHwXAAAAAAAAAAAAAAAAAAAAAHt7ewKCgoLI//////////////////////////////////////Dw8P92dnaWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3NzIYyMjOD7+/v//////////////////////+Xl5f91dXXCcHBwCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABubm4VcXFxlpOTk++8vLz/uLi4/4eHh+RpaWl7bW1tBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsbGwGaWlpIGpqahxsbGwDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAACAAQAAwAEAAMADAADgBwAAwAcAAMADAADAAwAAwAMAAMADAADAAwAAwAcAAOAHAADwDwAA/D8AAA==" rel="icon" type="image/x-icon">    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./style/styles.css">
 
     <title>Cody Almand</title>
+</head>
+
+</body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <section>
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -41,14 +44,9 @@
                         </svg> Portfolio
                     </a>
                 </li>
-            </ul>
-                       
-        </section>
-    </nav>
-
-</head>
-
-<body>
+            </ul>    
+          </section>
+      </nav>
   
   <main class="container">
 
@@ -60,25 +58,18 @@
 
       <section class="row">
         <article class="col-md-6">
-          <img alt="Contact Me" src="Contact-me-image.jpg" max-width=320px max-height= 350px style="max-width:100%">
+          <img alt="Contact Me" src="./assets/Contact-me-image.jpg" max-width=320px max-height= 350px style="max-width:100%">
         </article>
         <article class="col-md-6">
-          <form action="">
-            <label for="name"> </label>
-              <br>
-            <input type="text" id="name" name="name" placeholder="Name">
-            <label for="subject"> </label>
+            <form action="mailto:codybalmand@gmail.com">
+              <input type="text" id="name" name="name" placeholder="Name">
+              <label for="subject"> </label>
               <br><br>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-              <form method="post" action="mailto:codybalmand@gmail.com">
-                <input type="submit" value="Send Email">
-              </form>
-          </form>
+              <textarea id="body" name="body" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Send Email">
+            </form>
         </article>
       </section>
   </main>
-        
-
-  
 </body>
 </html>

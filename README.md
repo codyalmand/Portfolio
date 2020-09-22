@@ -4,14 +4,16 @@
  
  
 <h3>This project includes:<h3>
+ 
  1. "About Me" page 
  2. "Contact" page
  3. "Portfolio" page.
  
-<h3>Github Portfolio<h3>
+ 
+<h3>GitHub Portfolio<h3>
  https://codyalmand.github.io
 
-<h3>Github Profile<h3>
+<h3>GitHub Profile<h3>
 https://github.com/codyalmand
 
 <h3> LinkedIn Profile<h3>

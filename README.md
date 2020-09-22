@@ -1,7 +1,8 @@
-<h1>Portfolio Website<h1>
- 
+
 (This is an ongoing project and it will continue to be updated.)
- 
+
+<h1>Portfolio Website<h1>
+
  
 <h3>This project includes:<h3>
  

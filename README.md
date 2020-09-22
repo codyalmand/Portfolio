@@ -1,13 +1,15 @@
 <h1>Portfolio Website<h1>
------
-<p>(This is an ongoing project and it will continue to be updated.)<p>
+ 
+(This is an ongoing project and it will continue to be updated.)
+ 
+ 
 <h3>This project includes:<h3>
  1. "About Me" page 
  2. "Contact" page
  3. "Portfolio" page.
  
 <h3>Github Portfolio<h3>
- codyalmand.github.io
+ https://codyalmand.github.io
 
 <h3>Github Profile<h3>
 https://github.com/codyalmand

@@ -1,22 +1,28 @@
 
 (This is an ongoing project and it will continue to be updated.)
 
-<h1>Portfolio Website<h1>
+# Portfolio Website
 
+<br>
  
-<h3>This project includes:<h3>
+## This project includes:
  
- 1. "About Me" page 
- 2. "Contact" page
- 3. "Portfolio" page.
+ 1. A navigation bar including clickable links to other pages in portfolio.
+ 
+ 2. "About Me" page including a bio and contact information.
+ 
+ 3. "Contact" page with a content box for emailing directly.
+ 
+ 4. "Portfolio" page including a GitHub repositories link along with displaying my projects.
  
  
-<h3>GitHub Portfolio<h3>
+## GitHub Portfolio
  https://codyalmand.github.io
 
-<h3>GitHub Profile<h3>
+## GitHub Profile
 https://github.com/codyalmand
 
-<h3> LinkedIn Profile<h3>
+## LinkedIn Profile
  https://www.linkedin.com/in/cody-almand-00726b1b6/
 
+![](./assets/screenshot.png)

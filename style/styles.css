@@ -1,23 +1,15 @@
-a {
-  color: rgb(239, 239, 241);
-  text-align: center;
-}
 
-h1 {
-  color: lightgrey;
-}
-
-p {
+h1, h3, a, p {
   color: lightgrey;
 }
 
 .container {
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 200px;
     padding: right 20%;
     padding: left 20%;
     background-color: #343a40d2;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -36,13 +28,13 @@ body {
 }
 
 .container-contact {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 200px;
   margin-left: 200px;
   margin-right: 200px;
   border-color: black;
   background-color: #343a40d2;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .input[type=text], select, textarea {
@@ -55,15 +47,25 @@ body {
 
   .col-md-6 {
     float: left;
-    width: 50%;
+    width: 100%;
     margin-top: 6px;
+    padding-left: 10px;
     padding: 50px;
+  }
+
+  .col-md-6-img {
+    float: left;
+    width: 50%;
+    margin-top: 55px;
+    padding-left: 10px;
+    
   }
 
   .col-md-3 {
     margin: 30px;
     padding: 10px;
-    padding-left: 80px;
+    padding-left: 30px;
   }
+
 
 

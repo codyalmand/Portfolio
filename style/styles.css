@@ -1,6 +1,17 @@
 
-h1, h3, a, p {
+h1, p {
   color: lightgrey;
+  font-family: serif;
+}
+
+h3, #links {
+  padding-left: 50px;
+}
+
+.links, #links, h3{
+  color: lightgrey;
+  font-family: serif;
+  font-size: 20px;
 }
 
 .container {
@@ -17,11 +28,16 @@ body {
     background-attachment: scroll;
     background-image: url("../assets/blackwood.jpg");
 }
-    img {
-      border:5px solid black;
-      border-radius: 8px;
-    }
-  }
+}
+
+img {
+  border:5px solid black;
+  border-radius: 8px;
+}
+
+#myphoto {
+  margin-left:50px;
+}
 
 
 .row {
@@ -41,7 +57,7 @@ body {
   margin-right: 200px;
   border-color: black;
   background-color: #343a40d2;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: serif;
 }
 
 .input[type=text], select, textarea {

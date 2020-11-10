@@ -1,0 +1,40 @@
+.cover {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 550px;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 48px 0px 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    z-index: 500;
+}
+
+.cover p {
+    font-size: 15px;
+    width: 70%;
+    max-width: 900px;
+    margin: 30px auto;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 30px auto;
+    background-image: url("../images/me.jpg");
+    background-position: 30% 20%;
+    background-size: cover;
+    border: 5px solid #8b8b8b;;
+}
+
+@media(max-width: 765px) {
+    .cover p {
+        width: 85%;
+    }
+}

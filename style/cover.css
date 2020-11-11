@@ -13,7 +13,7 @@
 }
 
 .cover p {
-    font-size: 15px;
+    font-size: 18px;
     width: 70%;
     max-width: 900px;
     margin: 30px auto;
@@ -30,7 +30,7 @@
     background-image: url("../images/me.jpg");
     background-position: 30% 20%;
     background-size: cover;
-    border: 5px solid #8b8b8b;;
+    border: 5px solid rgb(150, 150, 150);
 }
 
 @media(max-width: 765px) {

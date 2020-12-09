@@ -9,7 +9,7 @@
 <br>
 
 ## Visit Deployed Site Here:
- https://codyalmand.github.io
+https://codyalmand.github.io/Portfolio/
 
 <br>
 

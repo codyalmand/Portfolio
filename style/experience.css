@@ -108,6 +108,45 @@ img {
     font-family: serif;
     font-size: 30px;
 }
+/* Buttons */
+#btnlinksPP, #btnlinksGBS, #btnlinksES {
+    font-family: serif;
+    background-color: black;
+    color: lightgrey;
+    border-color: black;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 43%;
+}
+#btnlinksPP:hover {
+    background-color: rgb(141, 5, 141);
+}
+#btnlinksGBS:hover {
+    background-color: rgb(95, 92, 95);
+}
+#btnlinksES:hover {
+    background-color: rgb(226, 44, 12);
+}
+
+.btnlinksP, .btnlinksM, .btnlinksNT {
+    font-family: serif;
+    background-color: lightgrey;
+    color: black;
+    border-color: lightgrey;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 285px;
+}
+.btnlinksP:hover {
+    background-color: rgb(23, 109, 167);
+}
+.btnlinksM:hover {
+    background-color: grey;
+}
+.btnlinksNT:hover {
+    background-color: rgb(16, 196, 127);
+}
+
 
 @media(max-width: 1100px) {
     .experience {

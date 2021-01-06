@@ -14,7 +14,7 @@ https://codyalmand.github.io/Portfolio/
 <br>
 
 ## Resume
-https://docs.google.com/document/d/1DoIF89ho1ie2ILy03x0PFxzTV70s-rC6qIJIghmILck/edit?usp=sharing
+https://docs.google.com/document/d/1WP5q2AsIdzgBnEqx7LTzYezHwd8ASOEMhw_oc8CRttE/edit
 
 ## GitHub Profile
 https://github.com/codyalmand

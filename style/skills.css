@@ -168,11 +168,24 @@
     z-index: -500;
 }
 
+.mongodb-logo {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 25%;
+    left: 30%;
+    background-image: url("../images/MongoDB.gif");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
 .jQuery-logo {
     position: absolute;
     width: 100px;
     height: 100px;
-    top: 10%;
+    top: 5%;
     left: 35%;
     background-image: url("../images/jquery.png");
     background-position: center;
@@ -200,7 +213,7 @@
     width: 100px;
     height: 100px;
     top: 70%;
-    left: 50%;
+    left: 55%;
     background-image: url("../images/react.png");
     background-position: center;
     background-size: cover;
@@ -229,6 +242,20 @@
     top: 40%;
     left: 75%;
     background-image: url("../images/javascript.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+    border-radius: 20px;
+}
+
+.jsx-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 60%;
+    background-image: url("../images/JSX.png");
     background-position: center;
     background-size: cover;
     opacity: .7;

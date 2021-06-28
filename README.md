@@ -14,7 +14,7 @@
 <br>
 
 ## Resume
-https://drive.google.com/file/d/1I-L6BjlhhYGH1oRP7BpdJCRRQDrXauuT/view?usp=sharing
+https://drive.google.com/file/d/1VSfxrj2swqubdEJs-insmFU7VkGb_x0D/view?usp=sharing
 
 ## GitHub Profile
 https://github.com/codyalmand

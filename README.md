@@ -8,13 +8,13 @@
 
 <br>
 
-## Visit Deployed Site Here:
-https://codyalmand.github.io/Portfolio/
+# Visit Deployed Site Here: 
+### https://codyalmand.github.io/Portfolio
 
 <br>
 
 ## Resume
-https://docs.google.com/document/d/1WP5q2AsIdzgBnEqx7LTzYezHwd8ASOEMhw_oc8CRttE/edit
+https://drive.google.com/file/d/1I-L6BjlhhYGH1oRP7BpdJCRRQDrXauuT/view?usp=sharing
 
 ## GitHub Profile
 https://github.com/codyalmand
